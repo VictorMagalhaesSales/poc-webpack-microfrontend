@@ -1,0 +1,1 @@
+(()=>{var o={839:(o,n,e)=>{var t=e(523).novaFunction;n.olaMundo=function(){console.log("Olá mundo"),t("mensagem de teste")}},523:o=>{o.exports={novaFunction:function(o){console.log("Sua mensagem: "+o)}}}},n={};(0,function e(t){var r=n[t];if(void 0!==r)return r.exports;var a=n[t]={exports:{}};return o[t](a,a.exports,e),a.exports}(839).olaMundo)()})();
