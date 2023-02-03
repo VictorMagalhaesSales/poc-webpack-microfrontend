@@ -2,7 +2,6 @@ const path = require('path');
 const { ModuleFederationPlugin } = require('webpack').container;
 
 const isProduction = process.env.NODE_ENV == 'production';
-const stylesHandler = 'style-loader';
 
 const config = {
     devServer: {

@@ -3,6 +3,10 @@
   "description": "My webpack project",
   "name": "poc-webpack-microfrontend",
   "scripts": {
+    "install:all": "npm install && cd projects/first-mfe && npm install && cd ../second-mfe && npm install",
+    "serve": "npx webpack server",
+    "serve:first-mfe": "cd projects/first-mfe && npx webpack server",
+    "serve:second-mfe": "cd projects/second-mfe && npx webpack server",
     "build": "webpack --mode=production --node-env=production",
     "build:dev": "webpack --mode=development",
     "build:prod": "webpack --mode=production --node-env=production",

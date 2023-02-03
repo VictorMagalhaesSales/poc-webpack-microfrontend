@@ -3,7 +3,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { ModuleFederationPlugin } = require('webpack').container;
 
 const isProduction = process.env.NODE_ENV == 'production';
-const stylesHandler = 'style-loader';
 
 const config = {
     devServer: {
@@ -11,7 +10,7 @@ const config = {
           directory: path.join(__dirname, '../../dist'),
         },
         compress: true,
-        port: 8001,
+        port: 8001
     },
     entry: './src/index.js',
     output: {
