@@ -1,3 +1,4 @@
-exports.mfe2 = () => {
-    console.log("Second MFE");
+exports.home = () => {
+    console.log("The second MFE is loading...");
+    return "Hello world!! (second mfe)";
 }

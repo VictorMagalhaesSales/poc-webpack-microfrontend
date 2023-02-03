@@ -1,5 +1,9 @@
-const {mfe1} = require('firstmfe/mfe1');
-const {mfe2} = require('secondmfe/mfe2');
+const firstMFE = require('firstmfe/home');
+const secondMFE = require('secondmfe/home');
 
-mfe1();
-mfe2();
+const firstMFEValue = firstMFE.home();
+const secondMFEValue = secondMFE.home();
+
+
+const element = document.getElementById('remote-modules');
+element.innerHTML = `${firstMFEValue} <br> ${secondMFEValue}`;
