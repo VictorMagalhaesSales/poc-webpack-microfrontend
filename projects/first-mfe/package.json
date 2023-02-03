@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "name": "first-microfrontend",
+  "name": "firstmfe",
   "scripts": {
     "build": "webpack --mode=production --node-env=production",
     "build:dev": "webpack --mode=development",
@@ -11,6 +11,7 @@
     "@webpack-cli/generators": "^3.0.1",
     "html-webpack-plugin": "^5.5.0",
     "webpack": "^5.75.0",
-    "webpack-cli": "^5.0.1"
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
   }
 }

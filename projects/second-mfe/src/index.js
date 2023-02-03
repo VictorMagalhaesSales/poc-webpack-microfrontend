@@ -1,1 +1,3 @@
-console.log("Second MFE")
+exports.mfe2 = () => {
+    console.log("Second MFE");
+}

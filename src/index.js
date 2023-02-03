@@ -1,3 +1,1 @@
-const { olaMundo } = require('./util');
-
-olaMundo();
+import('./bootstrap');
