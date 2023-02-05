@@ -1,4 +1,4 @@
 exports.home = () => {
     console.log("The second MFE is loading...");
-    return "Hello world!! (second mfe)";
+    return "<p class='mfe'>Hello world!! (second mfe)</p>";
 }

@@ -2,11 +2,21 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>Webpack App</title>
+        <title>POC MicroFrontend </title>
+        <style>
+            .mfe {
+                border: 1px solid rgb(0, 61, 139);
+                padding: 20px;
+                margin: 20px;
+                width: 40%;
+                float: left;
+            }
+        </style>
     </head>
     <body>
-        <h1>Hello world!</h1>
-        <h2>Tip: Check your console</h2>
-        <p id="remote-modules">Loading remote modules...</p>
+        <h1>Micro frontend proof of concept with webpack</h1>
+        <h3>Container Application</h3> 
+        <div id="first-mfe">Loading first remote module...</div>
+        <div id="second-mfe">Loading second remote module...</div>
     </body>    
 </html>

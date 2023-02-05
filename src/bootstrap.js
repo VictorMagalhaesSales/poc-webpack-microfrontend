@@ -5,5 +5,8 @@ const firstMFEValue = firstMFE.home();
 const secondMFEValue = secondMFE.home();
 
 
-const element = document.getElementById('remote-modules');
-element.innerHTML = `${firstMFEValue} <br> ${secondMFEValue}`;
+const firstElement = document.getElementById('first-mfe');
+firstElement.innerHTML = firstMFEValue;
+
+const secondElement = document.getElementById('second-mfe');
+secondElement.innerHTML = secondMFEValue;
